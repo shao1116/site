@@ -15,6 +15,9 @@ menu:
         - name: Education & Experiences
           url: Education_Experiences/
           weight: 1 
+        - name: Publications
+          url: Publications/
+          weight: 2
         #- name: Papers
         #  url: papers/
         #  weight: 2
@@ -67,6 +70,8 @@ params:
             #  url: data/
             #- name: Books
             #  url: books/
+            - name: Publications
+              url: Publications/
             - name: Awards & honors
               url: Awards_honors/
             #- name: Tags
