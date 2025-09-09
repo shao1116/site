@@ -52,8 +52,10 @@
 
 .shao001 {
     background-color: rgb(186, 186, 186);
+    margin-bottom: 10px; /* 添加底部間距 */
   }
   
 .shao002 {
     background-color: #add8e6;
+    margin-bottom: 10px; /* 添加底部間距 */
   }
