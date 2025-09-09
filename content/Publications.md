@@ -2,6 +2,7 @@
 title: "Publications"
 url: "/Publications/"
 draft: false
+goldmark.renderer.unsafe: True
 
 ---
 
