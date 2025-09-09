@@ -51,10 +51,10 @@ July. 2015–July 2016
 Consejo Superior de Investigaciones Científicas (CSIC, Spanish National Research Council),
 University of Sevilla, Spain
 2 weeks, 2024
-+Academic exchange and learning the drug development in Spain.
++ Academic exchange and learning the drug development in Spain.
 
 
 Singapore General Hospital (SGH), Singapore
 7 days, 2018
-+Demonstrating the human and pig adipose-derived stromal cells isolation.
++ Demonstrating the human and pig adipose-derived stromal cells isolation.
 ---
