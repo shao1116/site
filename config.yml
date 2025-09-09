@@ -55,7 +55,7 @@ params:
     profileMode:
           enabled: true
           title: Jheng-Syuan Shao
-          subtitle: "Postdoctoral fellow at Institute of Biomedical Sciences, Academia Sinica"
+          subtitle: "Postdoctoral fellow at Institute of Biomedical Sciences, Academia Sinica
                     <br> Mucosal Immunology | Asthma"
           imageUrl: "picture.jpeg"
           imageWidth: 160
