@@ -1,5 +1,5 @@
-baseURL: "https://pascalmichaillat.org/hugo-website/" 
-title: Moritz-Maria von Igelfeld
+baseURL: "https://shao1116.github.io/site/" 
+title: Jheng-Syuan Shao, Ph.D.
 theme: PaperMod
 
 enableInlineShortcodes: true
@@ -12,8 +12,8 @@ taxonomies:
 
 menu:
     main:
-        - name: Books
-          url: books/
+        - name: Education & Experiences
+          url: Education_Experiences/
           weight: 5 
         - name: Papers
           url: papers/
