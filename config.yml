@@ -94,6 +94,8 @@ params:
         #   url: officehours/
         - name: Google Scholar
           url: https://scholar.google.com/citations?user=RYCi31gAAAAJ
+        - name: Linkedin
+          url: https://www.linkedin.com/in/jheng-syuan-shao-508b05160/
         #- name: GitHub
         #  url: https://github.com/pmichaillat
         #- name: Substack
