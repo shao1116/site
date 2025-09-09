@@ -15,18 +15,18 @@ menu:
         - name: Education & Experiences
           url: Education_Experiences/
           weight: 1 
-        - name: Papers
-          url: papers/
-          weight: 2
+        #- name: Papers
+        #  url: papers/
+        #  weight: 2
         - name: Awards & honors
           url: Awards_honors/
           weight: 3
-        - name: Data
-          url: data/
-          weight: 4 
-        - name: Blog
-          url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
-          weight: 6
+        #- name: Data
+        #  url: data/
+        #  weight: 4 
+        #- name: Blog
+        #  url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
+        #  weight: 6
 
 params:
     description: "This website hosts Moritz-Maria von Igelfeld's research papers, books, course materials, data, curriculum vitae, and contact information."
@@ -63,18 +63,18 @@ params:
           buttons:
             - name: Education & Experiences
               url: Education_Experiences/
-            - name: Data
-              url: data/
-            - name: Books
-              url: books/
+            #- name: Data
+            #  url: data/
+            #- name: Books
+            #  url: books/
             - name: Awards & honors
               url: Awards_honors/
-            - name: Tags
-              url: tags/
-            - name: Archive
-              url: archive/
-            - name: Blog
-              url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
+            #- name: Tags
+            #  url: tags/
+            #- name: Archive
+            #  url: archive/
+            #- name: Blog
+            #  url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
 
     socialIcons:
         #- name: CV
