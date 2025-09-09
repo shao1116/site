@@ -14,7 +14,7 @@ menu:
     main:
         - name: Education & Experiences
           url: Education_Experiences/
-          weight: 5 
+          weight: 1 
         - name: Papers
           url: papers/
           weight: 2
@@ -54,7 +54,7 @@ params:
     math: true
     profileMode:
           enabled: true
-          title: Jheng-Syuan Shao
+          title: Jheng-Syuan Shao, Ph.D.
           subtitle: "Postdoctoral fellow at Institute of Biomedical Sciences, Academia Sinica
                     <br> Mucosal Immunology | Asthma"
           imageUrl: "picture.jpeg"
