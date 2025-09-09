@@ -6,7 +6,7 @@ draft: false
 ---
 
 --- 
-#### Education
+## Education
 
 Ph.D., Academia Sinica, Taipei, Taiwan
 Sept. 2020–August 2025
@@ -26,7 +26,7 @@ Sept. 2009–June 2013
 
 ---
 
-#### Work experiences
+## Work experiences
 
 Postdoctoral fellow, Academia Sinica, Taiwan
 August 2025 – NOW
@@ -46,7 +46,7 @@ July. 2015–July 2016
 
 ---
 
-#### Visiting scholar
+## Visiting scholar
 
 Consejo Superior de Investigaciones Científicas (CSIC, Spanish National Research Council),
 University of Sevilla, Spain
