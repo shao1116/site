@@ -3,7 +3,7 @@ title: "Education & Experiences"
 date: 2024-05-08
 hidemeta: true
 description: "Schedule and location for Professor Dr von Igelfeld's office hours."
-draft: False
+draft: false
 type: page
 ---
 
