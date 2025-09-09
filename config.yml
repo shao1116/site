@@ -18,8 +18,8 @@ menu:
         - name: Papers
           url: papers/
           weight: 2
-        - name: Courses
-          url: courses/
+        - name: Awards & honors
+          url: Awards_honors/
           weight: 3
         - name: Data
           url: data/
@@ -67,8 +67,8 @@ params:
               url: data/
             - name: Books
               url: books/
-            - name: Courses
-              url: courses/
+            - name: Awards & honors
+              url: Awards_honors/
             - name: Tags
               url: tags/
             - name: Archive
@@ -106,7 +106,7 @@ params:
         hiddenInList: false
         hiddenInSingle: true
     label:
-      text: "Moritz-Maria von Igelfeld"
+      text: "Jheng-Syuan Shao"
       icon: favicon.ico
       iconHeight: 18
 

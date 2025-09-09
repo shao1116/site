@@ -54,7 +54,7 @@ University of Sevilla, Spain
 +Academic exchange and learning the drug development in Spain.
 
 
-
 Singapore General Hospital (SGH), Singapore
 7 days, 2018
 +Demonstrating the human and pig adipose-derived stromal cells isolation.
+---
