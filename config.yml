@@ -32,10 +32,10 @@ menu:
         #  weight: 6
 
 params:
-    description: "This website hosts Moritz-Maria von Igelfeld's research papers, books, course materials, data, curriculum vitae, and contact information."
-    author: Jheng-Syuan Shao
+    description: "Jheng-Syuan Shao's website"
+    #author: Jheng-Syuan Shao
     # googleAnalyticsID: "G-XXXXX"
-    DateFormat: "January 2006"
+    DateFormat: "January 01, 2006"
     defaultTheme: light
     hideFooter: false
     disableThemeToggle: true
