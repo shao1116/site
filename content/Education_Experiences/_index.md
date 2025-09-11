@@ -52,7 +52,7 @@ Consejo Superior de Investigaciones Científicas (CSIC, Spanish National Researc
 University of Sevilla, Spain
 2 weeks, 2024
 + Academic exchange and learning the drug development in Spain.
-{{<  figure src="/CSIC1.jpg" width="400px" height="auto" alt="CSIC" >}} {{<  figure src="/CSIC2.jpg" width="400px" height="auto" alt="CSIC" >}}
+{{<  figure src="CSIC1.jpg" width="400px" height="auto" alt="CSIC" >}} {{<  figure src="CSIC2.jpg" width="400px" height="auto" alt="CSIC" >}}
 
 Singapore General Hospital (SGH), Singapore
 7 days, 2018
