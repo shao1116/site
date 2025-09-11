@@ -29,12 +29,14 @@ AAI Abstract Award
 2023
 + IMMUNOLOGY2023, the leading annual all-immunology meeting held by The American Association of Immunologists (AAI), $500 USD
 + This is awarded to AAI Trainee members (undergraduate students, graduate students, young professionals, and postdoctoral fellows) whose abstracts submitted to the AAI annual meeting are selected for oral presentation.
+{{<  figure src="AAI2023.jpg" width="400px" height="auto" alt="SGH" >}}
 
 
 Distinguished Poster Award
 2022
 + 2022 ICCB & APOCB JOINT MEETING, 14th International Congress of Cell Biology & 9th Asian Pacific Organization for Cell Biology, $100 USD
 + This is awarded to top 10% among more than 200 posters in the competition.
+{{<  figure src="222ICCB.jpg" width="400px" height="auto" alt="SGH" >}}
 
 
 IBMS Travel Award
