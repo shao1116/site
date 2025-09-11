@@ -1,7 +1,7 @@
 ---
 title: "Education & Experiences"
 #url: "/Education_Experiences/"
-draft: false
+
 
 ---
 
