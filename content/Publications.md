@@ -22,4 +22,5 @@ goldmark.renderer.unsafe: True
 ## 2016
 
 1‧	Weng Man Chong, Shih-Chin Hsu, Wei-Ting Kao, Chieh-Wen Lo, Kuan-Ying Lee, <strong>Jheng-Syuan Shao</strong>, Yi-Hung Chen, Justin Chang, Steve S.-L. Chen and Ming-Jiun Yu*, “Phosphoproteomics Identified an NS5A Phosphorylation Site Involved in Hepatitis C Virus Replication.”<br><em>Journal of Biological Chemistry</em>. 2016 Feb 19;291(8):3918-31. (2016 IF: 4.1, Ranking: 74/290 in BIOCHEMISTRY & MOLECULAR BIOLOGY)
+
 ---
