@@ -28,7 +28,7 @@ Winner for IBMS' Got Talents
 
 ---
 
-AAI Abstract Award
+AAI Trainee Abstract Award
 2023
 + IMMUNOLOGY2023, the leading annual all-immunology meeting held by The American Association of Immunologists (AAI), $500 USD
 + This is awarded to AAI Trainee members (undergraduate students, graduate students, young professionals, and postdoctoral fellows) whose abstracts submitted to the AAI annual meeting are selected for oral presentation.
