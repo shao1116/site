@@ -6,7 +6,14 @@ draft: false
 ---
 
 --- 
-#### 
+####
+IBMS Travel Award
+2025
++ Institute of Biomedical Sciences (IBMS), Academia Sinica, $2300 USD
++ This is awarded to top 7 speakers among the 15 researchers who are selected to participate in the oral competition in IBMS Research Day.
+
+---
+
 Third place in TIGP-MM & MMP Joint Retreat Oral Competition
 2024
 + Taiwan International Graduate Program-Molecular Medicine (TIGP-MM), Academia Sinica.
