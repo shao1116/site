@@ -8,7 +8,7 @@ draft: false
 --- 
 ## Education
 
-Ph.D., Academia Sinica, Taipei, Taiwan
+Ph.D., Academia Sinica & National Yang Ming Chiao Tung University, Taipei, Taiwan
 <br>Sept. 2020–August 2025
 + Taiwan International Graduate Program in Molecular Medicine
 + Advisor: Ya-Jen Chang, PhD, Research Fellow.
