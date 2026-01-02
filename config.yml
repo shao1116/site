@@ -59,7 +59,7 @@ params:
           enabled: true
           title: Jheng-Syuan Shao, Ph.D.
           subtitle: "Postdoctoral fellow at Institute of Biomedical Sciences, Academia Sinica | Mucosal Immunology
-                    <br> My research focuses on defining the roles of innate immune cells in pulmonary diseases, including asthma and respiratory viral infections. I employ genetic mouse models and multi-omics approaches to elucidate how immune cell–cell interactions regulate lung inflammation, tissue repair, and disease progression."
+                    <br><br>My research focuses on defining the roles of innate immune cells in pulmonary diseases, including asthma and respiratory viral infections. I employ genetic mouse models and multi-omics approaches to elucidate how immune cell–cell interactions regulate lung inflammation, tissue repair, and disease progression."
          # imageUrl: "picture.jpeg"
           imageWidth: 160
           imageHeight: 160
