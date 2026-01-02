@@ -73,7 +73,7 @@ IBMS Travel Award
 ---
 
 Taiwan International Graduate Program fellowship
-2020-2023
+2020-2025
 + Taiwan International Graduate Program (TIGP), Academia Sinica, $13600 USD/year
 
 ---
