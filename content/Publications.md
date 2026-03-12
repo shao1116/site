@@ -7,6 +7,10 @@ goldmark.renderer.unsafe: True
 ---
 
 --- 
+## 2026
+
+5‧	Ting-Chieh Huang, <strong>Jheng-Syuan Shao</strong>, Alan Chuan-Ying Lai, Ko-Chien Wu, Da-Fu Lin, Ya-Jen Chang*, “Lung dysbiosis disrupts an FFAR2-mediated innate immune circuit against Klebsiella pneumoniae.”<br><em>Theranostics</em>. 2026; 16(10):5348-5369. (2024 IF: 13.3, Ranking: 7/195 in MEDICINE, RESEARCH & EXPERIMENTAL)
+
 ## 2025
 
 <div class="shao002">4‧	<strong>Jheng-Syuan Shao</strong>, Alan Chuan-Ying Lai, Wei-Chang Huang, Ko-Chien Wu, Po-Yu Chi, Yao-Ming Chang, Ya-Jen Chang*,"Pulmonary fibroblast-derived stem cell factor promotes neutrophilic asthma by augmenting IL-17A production from ILC3s."<br><em>The Journal of Clinical Investigation</em>. 2025 Aug 15;135(16). (2024 IF: 13.6, Ranking: 5/195 in MEDICINE, RESEARCH & EXPERIMENTAL) </div>
