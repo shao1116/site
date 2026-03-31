@@ -59,9 +59,7 @@ params:
           enabled: true
           title: Jheng-Syuan Shao, Ph.D.
           subtitle: "Postdoctoral fellow at Institute of Biomedical Sciences, Academia Sinica | Mucosal Immunology
-          <br><br>My research integrates in vivo mouse models, high-dimensional immune profiling, and single-cell transcriptomic approaches to elucidate how immune cell networks coordinate antiviral defense, inflammation, and lung tissue homeostasis.
-          <br>As a biologist and immunologist, I have a deep understanding of the challenges biologists face when applying bioinformatics in research.
-With experience in both biomedical research and bioinformatics analysis, I specialize in formulating biologically meaningful questions and selecting appropriate computational approaches to address them."
+          <br><br>My research integrates in vivo mouse models, high-dimensional immune profiling, and single-cell transcriptomic approaches to elucidate how immune cell networks coordinate immune defense, inflammation, and lung tissue homeostasis."
           imageUrl: "PHOTO.jpg"
           imageWidth: 160
           imageHeight: 160
