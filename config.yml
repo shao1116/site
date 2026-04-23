@@ -24,6 +24,9 @@ menu:
         - name: Awards & honors
           url: Awards_honors/
           weight: 3
+        - name: Research resources
+          url: Research_resources/
+          weight: 4
         #- name: Data
         #  url: data/
         #  weight: 4 
@@ -74,6 +77,8 @@ params:
               url: Publications/
             - name: Awards & honors
               url: Awards_honors/
+            - name: Research resources
+              url: Research_resources/
             #- name: Tags
             #  url: tags/
             #- name: Archive
