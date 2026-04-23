@@ -77,7 +77,7 @@ params:
               url: Publications/
             - name: Awards & honors
               url: Awards_honors/
-            - name: Research resources
+            - name: Research Resources
               url: Research_resources/
             #- name: Tags
             #  url: tags/

@@ -1,5 +1,5 @@
 ---
-title: "Research resources"
+title: "Research Resources"
 url: "/Research_resources/"
 draft: false
 ---
@@ -8,7 +8,7 @@ draft: false
 
 ## ILC Knowledge Hub (Wiki)
 
-A curated, LLM-assisted knowledge map for navigating innate lymphoid cell (ILC) biology in the lung.
+An LLM-assisted, source-aware knowledge map of innate lymphoid cells (ILCs) in lung biology and pulmonary disease, enabling readers to rapidly understand the key concepts, mechanisms, and evolving research landscape of the ILC field.
 
 [Visit ILC Knowledge Hub (Wiki)](https://shao1116.github.io/ILC-Wiki/)
 
