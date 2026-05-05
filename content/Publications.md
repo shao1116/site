@@ -7,6 +7,8 @@ goldmark.renderer.unsafe: True
 ---
 
 --- 
+##Peer-Reviewed Articles
+
 ## 2026
 
 5‧	Ting-Chieh Huang, <strong>Jheng-Syuan Shao</strong>, Alan Chuan-Ying Lai, Ko-Chien Wu, Da-Fu Lin, Ya-Jen Chang*, “Lung dysbiosis disrupts an FFAR2-mediated innate immune circuit against Klebsiella pneumoniae.”<br><em>Theranostics</em>. 2026; 16(10):5348-5369. (2024 IF: 13.3, Ranking: 7/195 in MEDICINE, RESEARCH & EXPERIMENTAL)
@@ -26,5 +28,18 @@ goldmark.renderer.unsafe: True
 ## 2016
 
 1‧	Weng Man Chong, Shih-Chin Hsu, Wei-Ting Kao, Chieh-Wen Lo, Kuan-Ying Lee, <strong>Jheng-Syuan Shao</strong>, Yi-Hung Chen, Justin Chang, Steve S.-L. Chen and Ming-Jiun Yu*, “Phosphoproteomics Identified an NS5A Phosphorylation Site Involved in Hepatitis C Virus Replication.”<br><em>Journal of Biological Chemistry</em>. 2016 Feb 19;291(8):3918-31. (2016 IF: 4.1, Ranking: 74/290 in BIOCHEMISTRY & MOLECULAR BIOLOGY)
+
+---
+
+##Conference Abstracts
+
+3‧	<strong>Jheng-Syuan Shao</strong>, Ko-Chien Wu, Ya-Jen Chang*. “SLAMF7+ MDM–ILC2 crosstalk orchestrates lung homeostasis during viral pneumonia.” Poster presentation, The International Congress of Mucosal Immunology (ICMI) 2026, Montréal, Canada, July 13–17, 2026.
+<strong>Award</strong>: ICMI Young Investigator Travel Award.
+
+2‧	<strong>Jheng-Syuan Shao</strong>, Po-Yu Chi, Ya-Jen Chang*. “c-Kit signaling modulates group 3 innate lymphoid cell function in a mouse neutrophilic asthma model.” Oral presentation, IMMUNOLOGY2023, Washington, DC, USA, May 11–15, 2023.
+<strong>Award</strong>: AAI Trainee Abstract Award.
+
+1‧	<strong>Jheng-Syuan Shao</strong>, Po-Yu Chi, Ya-Jen Chang*. “c-Kit signaling modulates type 3 innate lymphoid cell function in a mouse neutrophilic asthma model.” Poster presentation, 2022 ICCB & APOCB Joint Meeting (14th International Congress of Cell Biology & 9th Asian Pacific Organization for Cell Biology), Taipei, Taiwan, November 7–11, 2022.
+<strong>Award</strong>: Distinguished Poster Award.
 
 ---
