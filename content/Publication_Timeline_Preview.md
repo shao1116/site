@@ -15,9 +15,9 @@ goldmark:
   </p>
 
   <div class="pub-legend" aria-label="Contribution role legend">
-    <span class="legend-chip lead"><span class="legend-dot"></span>Lead Author</span>
-    <span class="legend-chip collab"><span class="legend-dot"></span>Collaborative Author</span>
-    <span class="legend-chip contrib"><span class="legend-dot"></span>Contributing Author</span>
+    <span class="legend-chip lead"><span class="legend-dot"></span>First author</span>
+    <span class="legend-chip collab"><span class="legend-dot"></span>Second author</span>
+    <span class="legend-chip contrib"><span class="legend-dot"></span>Other authorship</span>
   </div>
 
   <div class="pub-timeline">
@@ -25,7 +25,7 @@ goldmark:
       <div class="pub-year">2026</div>
       <div class="pub-layers">
         <article class="pub-card role-collab">
-          <div class="pub-role-label">Collaborative Author</div>
+          <div class="pub-role-label">Second author</div>
           <h3 class="pub-title">Lung dysbiosis disrupts an FFAR2-mediated innate immune circuit against Klebsiella pneumoniae.</h3>
           <p class="pub-authors">Ting-Chieh Huang, <strong>Jheng-Syuan Shao</strong>, Alan Chuan-Ying Lai, Ko-Chien Wu, Da-Fu Lin, Ya-Jen Chang*</p>
           <p class="pub-meta"><em>Theranostics</em> (2026) · IF 13.3 · Ranking 7/195 (Medicine, Research & Experimental)</p>
@@ -37,14 +37,14 @@ goldmark:
       <div class="pub-year">2025</div>
       <div class="pub-layers">
         <article class="pub-card role-lead">
-          <div class="pub-role-label">Lead Author</div>
+          <div class="pub-role-label">First author</div>
           <h3 class="pub-title">Pulmonary fibroblast-derived stem cell factor promotes neutrophilic asthma by augmenting IL-17A production from ILC3s.</h3>
           <p class="pub-authors"><strong>Jheng-Syuan Shao</strong>, Alan Chuan-Ying Lai, Wei-Chang Huang, Ko-Chien Wu, Po-Yu Chi, Yao-Ming Chang, Ya-Jen Chang*</p>
           <p class="pub-meta"><em>The Journal of Clinical Investigation</em> (2025) · IF 13.6 · Ranking 5/195 (Medicine, Research & Experimental)</p>
         </article>
 
         <article class="pub-card role-collab">
-          <div class="pub-role-label">Collaborative Author</div>
+          <div class="pub-role-label">Second author</div>
           <h3 class="pub-title">Decoding innate lymphoid cells and innate-like lymphocytes in asthma: pathways to mechanisms and therapies.</h3>
           <p class="pub-authors">Christina Li-Ping Thio, <strong>Jheng-Syuan Shao</strong>, Chia-Hui Luo, Ya-Jen Chang*</p>
           <p class="pub-meta"><em>Journal of Biomedical Science</em> (2025) · IF 12.1 · Ranking 9/195 (Medicine, Research & Experimental)</p>
@@ -56,7 +56,7 @@ goldmark:
       <div class="pub-year">2020</div>
       <div class="pub-layers">
         <article class="pub-card role-contrib">
-          <div class="pub-role-label">Contributing Author</div>
+          <div class="pub-role-label">Other authorship</div>
           <h3 class="pub-title">Adipose-derived stromal cells modulating composite allotransplant survival is correlated with B cell regulation in a rodent hind-limb allotransplantation model.</h3>
           <p class="pub-authors">Chien-Chang Chen, Rong-Fu Chen, <strong>Jheng-Syuan Shao</strong>, Yun-Ting Li, Yu-Chi Wang, Gerald Brandacher, Jiin-Haur Chuang, Yur-Ren Kuo*</p>
           <p class="pub-meta"><em>Stem Cell Research & Therapy</em> (2020) · IF 6.8 · Ranking 24/140 (Medicine, Research & Experimental)</p>
@@ -68,7 +68,7 @@ goldmark:
       <div class="pub-year">2016</div>
       <div class="pub-layers">
         <article class="pub-card role-contrib">
-          <div class="pub-role-label">Contributing Author</div>
+          <div class="pub-role-label">Other authorship</div>
           <h3 class="pub-title">Phosphoproteomics identified an NS5A phosphorylation site involved in Hepatitis C Virus replication.</h3>
           <p class="pub-authors">Weng Man Chong, Shih-Chin Hsu, Wei-Ting Kao, Chieh-Wen Lo, Kuan-Ying Lee, <strong>Jheng-Syuan Shao</strong>, Yi-Hung Chen, Justin Chang, Steve S.-L. Chen, Ming-Jiun Yu*</p>
           <p class="pub-meta"><em>Journal of Biological Chemistry</em> (2016) · IF 4.1 · Ranking 74/290 (Biochemistry & Molecular Biology)</p>
@@ -85,7 +85,7 @@ goldmark:
     --muted: #5f6f68;
     --line: #b8c5bd;
     --lead: #1b5e20;
-    --collab: #0d47a1;
+    --collab: #4a78b8;
     --contrib: #546e7a;
     --card-bg: #fffcf7;
     margin: 0 auto;
@@ -129,7 +129,7 @@ goldmark:
   }
 
   .legend-chip.lead .legend-dot { background: var(--lead); }
-  .legend-chip.collab .legend-dot { background: var(--collab); }
+  .legend-chip.collab .legend-dot { background: #6d95cb; }
   .legend-chip.contrib .legend-dot {
     background: #f7f5ef;
     border: 2px solid var(--contrib);
@@ -198,8 +198,9 @@ goldmark:
   }
 
   .role-collab {
-    border-left: 3px solid var(--collab);
-    box-shadow: 0 3px 11px rgba(13, 71, 161, 0.16);
+    border-left: 2px solid #7fa2d1;
+    box-shadow: 0 1px 5px rgba(74, 120, 184, 0.1);
+    background: #fdfefe;
   }
 
   .role-contrib {
@@ -216,9 +217,9 @@ goldmark:
   }
 
   .role-collab::before {
-    background: var(--collab);
-    width: 0.72rem;
-    height: 0.72rem;
+    background: #7fa2d1;
+    width: 0.64rem;
+    height: 0.64rem;
     border-width: 2px;
   }
 
@@ -248,7 +249,7 @@ goldmark:
   }
 
   .role-collab .pub-role-label {
-    background: var(--collab);
+    background: #6a90c5;
   }
 
   .role-contrib .pub-role-label {
