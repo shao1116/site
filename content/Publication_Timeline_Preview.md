@@ -86,7 +86,7 @@ goldmark:
     --line: #b8c5bd;
     --lead: #1b5e20;
     --collab: #4a78b8;
-    --contrib: #546e7a;
+    --contrib: #8c9aa3;
     --card-bg: #fffcf7;
     margin: 0 auto;
     max-width: 1080px;
@@ -132,7 +132,7 @@ goldmark:
   .legend-chip.collab .legend-dot { background: #6d95cb; }
   .legend-chip.contrib .legend-dot {
     background: #f7f5ef;
-    border: 2px solid var(--contrib);
+    border: 1.5px solid var(--contrib);
     box-sizing: border-box;
   }
 
@@ -204,9 +204,9 @@ goldmark:
   }
 
   .role-contrib {
-    border-left: 2px dashed var(--contrib);
-    background: #fcfaf6;
-    box-shadow: 0 1px 4px rgba(35, 35, 35, 0.05);
+    border-left: 1px dashed #a8b4bb;
+    background: #fdfcf9;
+    box-shadow: none;
   }
 
   .role-lead::before {
@@ -224,10 +224,10 @@ goldmark:
   }
 
   .role-contrib::before {
-    width: 0.62rem;
-    height: 0.62rem;
-    background: #f7f5ef;
-    border: 2px solid var(--contrib);
+    width: 0.52rem;
+    height: 0.52rem;
+    background: #fdfcf9;
+    border: 1.5px solid #a8b4bb;
     box-shadow: 0 0 0 1px var(--line);
   }
 
@@ -253,7 +253,14 @@ goldmark:
   }
 
   .role-contrib .pub-role-label {
-    background: var(--contrib);
+    background: #f3f6f8;
+    border: 1px solid #cad3d9;
+    color: #61717b;
+  }
+
+  .role-contrib .pub-authors,
+  .role-contrib .pub-meta {
+    color: #5f6d66;
   }
 
   .pub-title {
