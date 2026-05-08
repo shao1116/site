@@ -7,6 +7,7 @@ goldmark:
     unsafe: true
 ---
 
+{{< rawhtml >}}
 <section class="pub-timeline-page">
   <p class="pub-intro">
     Peer-reviewed publication timeline (newest to oldest) with three contribution tiers:
@@ -218,3 +219,4 @@ goldmark:
     }
   }
 </style>
+{{< /rawhtml >}}
