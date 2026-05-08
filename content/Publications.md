@@ -89,6 +89,7 @@ goldmark.renderer.unsafe: True
     max-width: 1080px;
     padding: 0.6rem 0 2rem;
     color: var(--ink);
+    overflow-wrap: anywhere;
   }
 
   .pub-legend {
@@ -280,13 +281,15 @@ goldmark.renderer.unsafe: True
     color: var(--muted);
   }
 
-  .pub-layers:hover .pub-card {
-    opacity: 0.65;
-  }
+  @media (hover: hover) and (pointer: fine) {
+    .pub-layers:hover .pub-card {
+      opacity: 0.65;
+    }
 
-  .pub-layers .pub-card:hover {
-    opacity: 1;
-    transform: translateY(-1px);
+    .pub-layers .pub-card:hover {
+      opacity: 1;
+      transform: translateY(-1px);
+    }
   }
 
   @media (max-width: 900px) {
@@ -302,6 +305,35 @@ goldmark.renderer.unsafe: True
 
     .pub-layers {
       margin-left: 0.2rem;
+    }
+
+    .pub-card {
+      padding: 0.78rem 0.86rem;
+    }
+
+    .pub-title {
+      font-size: 0.98rem;
+      line-height: 1.38;
+    }
+
+    .pub-authors,
+    .pub-meta {
+      font-size: 0.86rem;
+      line-height: 1.45;
+    }
+
+    .pub-role-label {
+      font-size: 0.68rem;
+      letter-spacing: 0.04em;
+    }
+
+    .legend-chip {
+      font-size: 0.74rem;
+      padding: 0.2rem 0.54rem;
+    }
+
+    .pub-index {
+      min-width: 1.2rem;
     }
   }
 </style>
