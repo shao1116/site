@@ -10,16 +10,22 @@ goldmark:
 {{< rawhtml >}}
 <section class="pub-timeline-page">
   <p class="pub-intro">
-    Peer-reviewed publication timeline (newest to oldest) with three contribution tiers:
-    First-author leadership, second-author collaboration, and other co-authored work.
+    Peer-reviewed publication timeline (newest to oldest) organized by contribution roles:
+    Lead Author, Collaborative Author, and Contributing Author.
   </p>
+
+  <div class="pub-legend" aria-label="Contribution role legend">
+    <span class="legend-chip lead"><span class="legend-dot"></span>Lead Author</span>
+    <span class="legend-chip collab"><span class="legend-dot"></span>Collaborative Author</span>
+    <span class="legend-chip contrib"><span class="legend-dot"></span>Contributing Author</span>
+  </div>
 
   <div class="pub-timeline">
     <div class="pub-year-row">
       <div class="pub-year">2026</div>
       <div class="pub-layers">
-        <article class="pub-card tier-2">
-          <div class="pub-tier-label">Second-author collab</div>
+        <article class="pub-card role-collab">
+          <div class="pub-role-label">Collaborative Author</div>
           <h3 class="pub-title">Lung dysbiosis disrupts an FFAR2-mediated innate immune circuit against Klebsiella pneumoniae.</h3>
           <p class="pub-authors">Ting-Chieh Huang, <strong>Jheng-Syuan Shao</strong>, Alan Chuan-Ying Lai, Ko-Chien Wu, Da-Fu Lin, Ya-Jen Chang*</p>
           <p class="pub-meta"><em>Theranostics</em> (2026) · IF 13.3 · Ranking 7/195 (Medicine, Research & Experimental)</p>
@@ -30,15 +36,15 @@ goldmark:
     <div class="pub-year-row">
       <div class="pub-year">2025</div>
       <div class="pub-layers">
-        <article class="pub-card tier-1">
-          <div class="pub-tier-label">First-author lead</div>
+        <article class="pub-card role-lead">
+          <div class="pub-role-label">Lead Author</div>
           <h3 class="pub-title">Pulmonary fibroblast-derived stem cell factor promotes neutrophilic asthma by augmenting IL-17A production from ILC3s.</h3>
           <p class="pub-authors"><strong>Jheng-Syuan Shao</strong>, Alan Chuan-Ying Lai, Wei-Chang Huang, Ko-Chien Wu, Po-Yu Chi, Yao-Ming Chang, Ya-Jen Chang*</p>
           <p class="pub-meta"><em>The Journal of Clinical Investigation</em> (2025) · IF 13.6 · Ranking 5/195 (Medicine, Research & Experimental)</p>
         </article>
 
-        <article class="pub-card tier-2">
-          <div class="pub-tier-label">Second-author collab</div>
+        <article class="pub-card role-collab">
+          <div class="pub-role-label">Collaborative Author</div>
           <h3 class="pub-title">Decoding innate lymphoid cells and innate-like lymphocytes in asthma: pathways to mechanisms and therapies.</h3>
           <p class="pub-authors">Christina Li-Ping Thio, <strong>Jheng-Syuan Shao</strong>, Chia-Hui Luo, Ya-Jen Chang*</p>
           <p class="pub-meta"><em>Journal of Biomedical Science</em> (2025) · IF 12.1 · Ranking 9/195 (Medicine, Research & Experimental)</p>
@@ -49,8 +55,8 @@ goldmark:
     <div class="pub-year-row">
       <div class="pub-year">2020</div>
       <div class="pub-layers">
-        <article class="pub-card tier-3">
-          <div class="pub-tier-label">Co-author</div>
+        <article class="pub-card role-contrib">
+          <div class="pub-role-label">Contributing Author</div>
           <h3 class="pub-title">Adipose-derived stromal cells modulating composite allotransplant survival is correlated with B cell regulation in a rodent hind-limb allotransplantation model.</h3>
           <p class="pub-authors">Chien-Chang Chen, Rong-Fu Chen, <strong>Jheng-Syuan Shao</strong>, Yun-Ting Li, Yu-Chi Wang, Gerald Brandacher, Jiin-Haur Chuang, Yur-Ren Kuo*</p>
           <p class="pub-meta"><em>Stem Cell Research & Therapy</em> (2020) · IF 6.8 · Ranking 24/140 (Medicine, Research & Experimental)</p>
@@ -61,8 +67,8 @@ goldmark:
     <div class="pub-year-row">
       <div class="pub-year">2016</div>
       <div class="pub-layers">
-        <article class="pub-card tier-3">
-          <div class="pub-tier-label">Co-author</div>
+        <article class="pub-card role-contrib">
+          <div class="pub-role-label">Contributing Author</div>
           <h3 class="pub-title">Phosphoproteomics identified an NS5A phosphorylation site involved in Hepatitis C Virus replication.</h3>
           <p class="pub-authors">Weng Man Chong, Shih-Chin Hsu, Wei-Ting Kao, Chieh-Wen Lo, Kuan-Ying Lee, <strong>Jheng-Syuan Shao</strong>, Yi-Hung Chen, Justin Chang, Steve S.-L. Chen, Ming-Jiun Yu*</p>
           <p class="pub-meta"><em>Journal of Biological Chemistry</em> (2016) · IF 4.1 · Ranking 74/290 (Biochemistry & Molecular Biology)</p>
@@ -78,9 +84,9 @@ goldmark:
     --ink: #1f2926;
     --muted: #5f6f68;
     --line: #b8c5bd;
-    --tier1: #335f4b;
-    --tier2: #496c74;
-    --tier3: #7d6f5f;
+    --lead: #1b5e20;
+    --collab: #0d47a1;
+    --contrib: #546e7a;
     --card-bg: #fffcf7;
     margin: 0 auto;
     max-width: 1080px;
@@ -93,6 +99,41 @@ goldmark:
     color: var(--muted);
     font-size: 0.98rem;
     line-height: 1.5;
+  }
+
+  .pub-legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 0 0 1rem;
+  }
+
+  .legend-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.38rem;
+    border-radius: 999px;
+    padding: 0.22rem 0.62rem;
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    background: #edf1ee;
+    color: #2f3a36;
+  }
+
+  .legend-dot {
+    width: 0.56rem;
+    height: 0.56rem;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .legend-chip.lead .legend-dot { background: var(--lead); }
+  .legend-chip.collab .legend-dot { background: var(--collab); }
+  .legend-chip.contrib .legend-dot {
+    background: #f7f5ef;
+    border: 2px solid var(--contrib);
+    box-sizing: border-box;
   }
 
   .pub-timeline {
@@ -150,46 +191,46 @@ goldmark:
     box-shadow: 0 0 0 1px var(--line);
   }
 
-  .tier-1 {
-    border-left: 5px solid var(--tier1);
+  .role-lead {
+    border-left: 5px solid var(--lead);
     padding: 1rem 1.08rem;
     box-shadow: 0 6px 16px rgba(39, 74, 58, 0.15);
   }
 
-  .tier-2 {
-    border-left: 3px solid var(--tier2);
-    box-shadow: 0 3px 11px rgba(34, 66, 74, 0.1);
+  .role-collab {
+    border-left: 3px solid var(--collab);
+    box-shadow: 0 3px 11px rgba(13, 71, 161, 0.16);
   }
 
-  .tier-3 {
-    border-left: 2px dashed var(--tier3);
+  .role-contrib {
+    border-left: 2px dashed var(--contrib);
     background: #fcfaf6;
     box-shadow: 0 1px 4px rgba(35, 35, 35, 0.05);
   }
 
-  .tier-1::before {
-    background: var(--tier1);
+  .role-lead::before {
+    background: var(--lead);
     width: 0.84rem;
     height: 0.84rem;
     border-width: 2px;
   }
 
-  .tier-2::before {
-    background: var(--tier2);
+  .role-collab::before {
+    background: var(--collab);
     width: 0.72rem;
     height: 0.72rem;
     border-width: 2px;
   }
 
-  .tier-3::before {
+  .role-contrib::before {
     width: 0.62rem;
     height: 0.62rem;
     background: #f7f5ef;
-    border: 2px solid var(--tier3);
+    border: 2px solid var(--contrib);
     box-shadow: 0 0 0 1px var(--line);
   }
 
-  .pub-tier-label {
+  .pub-role-label {
     display: inline-block;
     margin-bottom: 0.5rem;
     font-size: 0.72rem;
@@ -202,16 +243,16 @@ goldmark:
     line-height: 1.25;
   }
 
-  .tier-1 .pub-tier-label {
-    background: var(--tier1);
+  .role-lead .pub-role-label {
+    background: var(--lead);
   }
 
-  .tier-2 .pub-tier-label {
-    background: var(--tier2);
+  .role-collab .pub-role-label {
+    background: var(--collab);
   }
 
-  .tier-3 .pub-tier-label {
-    background: var(--tier3);
+  .role-contrib .pub-role-label {
+    background: var(--contrib);
   }
 
   .pub-title {

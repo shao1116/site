@@ -78,8 +78,8 @@ params:
             #  url: books/
             - name: Publications
               url: Publications/
-            #- name: Publication Timeline
-            #  url: publication-timeline-preview/
+            - name: Publication Timeline
+              url: publication-timeline-preview/
             - name: Awards & honors
               url: Awards_honors/
             - name: Research Resources
