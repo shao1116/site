@@ -38,11 +38,12 @@ draft: false
 
 <style>
   .edu-timeline-page {
-    --edu-ink: #1f2926;
-    --edu-muted: #5f6f68;
-    --edu-line: #b8c5bd;
-    --edu-accent: #0b57d0;
+    --edu-ink: #1f1f1f;
+    --edu-muted: #5c5c5c;
+    --edu-line: #c8c2b8;
+    --edu-accent: #1f1f1f;
     --edu-card-bg: #fffcf7;
+    --edu-tag-bg: #e8e2d8;
     margin: 0 auto;
     max-width: 1080px;
     padding: 0.2rem 0 1.4rem;
@@ -62,7 +63,7 @@ draft: false
   .edu-card {
     position: relative;
     background: var(--edu-card-bg);
-    border: 1px solid #dde6e0;
+    border: 1px solid #ddd7cd;
     border-left: 3px solid var(--edu-accent);
     border-radius: 12px;
     padding: 0.9rem 1rem;
@@ -87,8 +88,9 @@ draft: false
     margin-bottom: 0.46rem;
     padding: 0.18rem 0.56rem;
     border-radius: 999px;
-    background: var(--edu-accent);
-    color: #f9f8f5;
+    background: var(--edu-tag-bg);
+    color: #1f1f1f;
+    border: 1px solid #d4ccc0;
     font-size: 0.72rem;
     font-weight: 700;
     letter-spacing: 0.04em;
@@ -112,7 +114,7 @@ draft: false
 
   .edu-detail {
     margin: 0;
-    color: #3e4e47;
+    color: #444444;
     font-size: 0.9rem;
     line-height: 1.5;
   }
