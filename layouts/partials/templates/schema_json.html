@@ -1,0 +1,78 @@
+{{- $personName := site.Params.author | default site.Title -}}
+{{- $description := site.Params.description | default site.Title -}}
+{{- if .IsHome }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": {{ $personName | jsonify }},
+  "honorificSuffix": "Ph.D.",
+  "url": {{ site.Home.Permalink | jsonify }},
+  "image": {{ site.Params.profileMode.imageUrl | default "PHOTO.jpg" | absURL | jsonify }},
+  "jobTitle": "Postdoctoral Fellow",
+  "affiliation": {
+    "@type": "Organization",
+    "name": "Institute of Biomedical Sciences, Academia Sinica",
+    "url": "https://www.ibms.sinica.edu.tw/"
+  },
+  "description": {{ $description | plainify | jsonify }},
+  "knowsAbout": [
+    "mucosal immunology",
+    "lung innate immunity",
+    "respiratory viral infection",
+    "asthma",
+    "innate lymphoid cells",
+    "macrophage and monocyte biology",
+    "high-dimensional immune profiling",
+    "single-cell RNA-seq",
+    "bioinformatics"
+  ],
+  "alumniOf": [
+    {
+      "@type": "CollegeOrUniversity",
+      "name": "National Yang Ming Chiao Tung University"
+    },
+    {
+      "@type": "Organization",
+      "name": "Taiwan International Graduate Program, Academia Sinica"
+    },
+    {
+      "@type": "CollegeOrUniversity",
+      "name": "National Taiwan University"
+    }
+  ],
+  "sameAs": [
+    {{- range $i, $e := site.Params.schema.sameAs }}{{ if $i }}, {{ end }}{{ $e | jsonify }}{{ end }}
+  ]
+}
+</script>
+{{- else if or .IsPage .IsSection }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": {{ .Title | default site.Title | plainify | jsonify }},
+  "headline": {{ .Title | default site.Title | plainify | jsonify }},
+  "description": {{ with .Description }}{{ . | plainify | jsonify }}{{ else }}{{ .Summary | default $description | plainify | jsonify }}{{ end }},
+  "url": {{ .Permalink | jsonify }},
+  "inLanguage": {{ .Language.Lang | default "en-us" | jsonify }},
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": {{ site.Title | jsonify }},
+    "url": {{ site.Home.Permalink | jsonify }}
+  },
+  "author": {
+    "@type": "Person",
+    "name": {{ $personName | jsonify }},
+    "url": {{ site.Home.Permalink | jsonify }}
+  },
+  "about": [
+    {{- $terms := .Params.keywords | default site.Params.keywords -}}
+    {{- range $i, $term := first 12 $terms }}{{ if $i }}, {{ end }}{
+      "@type": "Thing",
+      "name": {{ $term | jsonify }}
+    }{{ end }}
+  ]
+}
+</script>
+{{- end -}}

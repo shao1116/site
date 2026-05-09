@@ -1,6 +1,15 @@
 ---
 title: "Research Resources"
 url: "/Research_resources/"
+description: "Research tools and resources by Jheng-Syuan Shao, including an LLM-assisted ILC Knowledge Hub for lung innate lymphoid cell biology and pulmonary disease."
+keywords:
+  - ILC Knowledge Hub
+  - innate lymphoid cells
+  - lung biology
+  - pulmonary disease
+  - immunology resources
+  - AI-assisted research
+  - source-aware knowledge map
 draft: false
 ---
 

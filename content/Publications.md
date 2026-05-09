@@ -1,6 +1,17 @@
 ---
 title: "Publications"
 url: "/Publications/"
+description: "Peer-reviewed publications and conference abstracts by Jheng-Syuan Shao, Ph.D. in mucosal immunology, lung innate immunity, asthma, ILC biology, respiratory infection, and bioinformatics."
+keywords:
+  - Jheng-Syuan Shao publications
+  - mucosal immunology
+  - innate lymphoid cells
+  - ILC2
+  - ILC3
+  - lung immunity
+  - asthma
+  - respiratory infection
+  - single-cell transcriptomics
 draft: false
 goldmark.renderer.unsafe: True
 

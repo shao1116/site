@@ -1,6 +1,14 @@
 ---
 title: "Awards & honors"
 url: "/Awards_honors/"
+description: "Awards, fellowships, travel awards, and research honors received by Jheng-Syuan Shao, Ph.D."
+keywords:
+  - Jheng-Syuan Shao awards
+  - immunology awards
+  - Academia Sinica Postdoctoral Scholar
+  - ICMI Young Investigator Travel Award
+  - AAI Trainee Abstract Award
+  - TIGP fellowship
 draft: false
 
 ---

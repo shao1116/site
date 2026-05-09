@@ -1,6 +1,14 @@
 ---
 title: "Education & Experiences"
 url: "/Education_Experiences/"
+description: "Education, research training, postdoctoral appointment, visiting scholar experiences, and professional background of Jheng-Syuan Shao, Ph.D."
+keywords:
+  - Jheng-Syuan Shao education
+  - Academia Sinica
+  - National Yang Ming Chiao Tung University
+  - mucosal immunology
+  - molecular medicine
+  - postdoctoral fellow
 draft: false
 
 ---

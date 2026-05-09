@@ -1,0 +1,163 @@
+/*
+  Academic polish layer.
+  Small, theme-safe overrides that make the site feel more like a mature
+  immunology/bioinformatics profile without changing the PaperMod structure.
+*/
+
+:root {
+    --main-width: 820px;
+    --nav-width: 1120px;
+    --radius: 8px;
+    --theme: #fbfcfa;
+    --entry: #ffffff;
+    --primary: #182521;
+    --secondary: #53645f;
+    --tertiary: #d7e0dc;
+    --content: #20312c;
+    --code-bg: #f1f5f3;
+    --border: #dce5e1;
+    --darkcolor: #136f63;
+    --lightcolor: #d8ebe6;
+    --lineheight: 1.58;
+    --textsize: 17px;
+    --h1size: 30px;
+}
+
+body {
+    background:
+        linear-gradient(180deg, #f7faf8 0, #fbfcfa 260px),
+        #fbfcfa;
+    color: var(--content);
+    font-feature-settings: "kern" 1;
+}
+
+.nav {
+    max-width: var(--nav-width);
+    border: 1px solid rgba(19, 111, 99, 0.09);
+    border-radius: 0 0 var(--radius) var(--radius);
+    background: rgba(247, 250, 248, 0.94);
+}
+
+.logo a,
+#menu a {
+    color: var(--primary);
+}
+
+#menu .active {
+    border-bottom-color: var(--darkcolor);
+}
+
+.main {
+    padding-top: calc(var(--gap) * 1.15);
+}
+
+.main .profile {
+    min-height: calc(100vh - var(--footer-height) - (var(--gap) * 4));
+    padding-inline: 0;
+}
+
+.profile .profile_inner {
+    max-width: 760px;
+    gap: 12px;
+}
+
+.profile .profile_inner h1 {
+    margin-top: 8px;
+    color: var(--primary);
+    font-size: clamp(2.1rem, 6vw, 3.2rem);
+    line-height: 1.08;
+}
+
+.profile .profile_inner span {
+    max-width: 720px;
+    color: var(--secondary);
+    font-size: 1.02rem;
+}
+
+.profile img {
+    border: 3px solid #ffffff;
+    box-shadow: 0 8px 28px rgba(24, 37, 33, 0.14);
+}
+
+.social-icons a svg {
+    height: 27px;
+    width: 27px;
+}
+
+.button {
+    border: 1px solid rgba(19, 111, 99, 0.18);
+    background: #eef6f3;
+    color: #163a34;
+    transition: background 0.16s ease, border-color 0.16s ease, transform 0.16s ease;
+}
+
+.button:hover {
+    border-color: rgba(19, 111, 99, 0.35);
+    background: #dcefeb;
+    transform: translateY(-1px);
+}
+
+.post-title {
+    color: var(--primary);
+    letter-spacing: 0;
+}
+
+.post-content h2 {
+    color: var(--primary);
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 0.35rem;
+}
+
+.post-content h3 {
+    color: #1f3c36;
+}
+
+.post-content a,
+.post-meta a,
+.toc a:hover {
+    box-shadow: 0 2px 0 rgba(19, 111, 99, 0.45);
+}
+
+.post-content img {
+    border: 1px solid rgba(24, 37, 33, 0.08);
+    border-radius: var(--radius);
+}
+
+.pub-card,
+.edu-card {
+    border-radius: var(--radius) !important;
+}
+
+.pub-timeline-page,
+.edu-timeline-page {
+    max-width: 100%;
+}
+
+.pub-card,
+.edu-card {
+    box-shadow: 0 5px 18px rgba(24, 37, 33, 0.06) !important;
+}
+
+.role-lead {
+    box-shadow: 0 10px 24px rgba(11, 87, 208, 0.14) !important;
+}
+
+.footer {
+    color: var(--secondary);
+}
+
+@media (max-width: 700px) {
+    :root {
+        --gap: 18px;
+        --textsize: 16px;
+    }
+
+    .nav {
+        border-inline: 0;
+        border-radius: 0;
+    }
+
+    .profile .profile_inner h1 {
+        font-size: 2.1rem;
+    }
+}

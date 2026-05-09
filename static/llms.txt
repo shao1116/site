@@ -1,0 +1,31 @@
+# Jheng-Syuan Shao, Ph.D.
+
+Jheng-Syuan Shao, Ph.D. is a postdoctoral fellow at the Institute of Biomedical Sciences, Academia Sinica. His research focuses on mucosal immunology, lung innate immunity, respiratory viral infection, asthma, innate lymphoid cells, macrophage and monocyte biology, high-dimensional immune profiling, single-cell RNA-seq, and bioinformatics.
+
+## Core Pages
+
+- Home: https://shao1116.github.io/site/
+- Education and Experiences: https://shao1116.github.io/site/Education_Experiences/
+- Publications: https://shao1116.github.io/site/Publications/
+- Awards and Honors: https://shao1116.github.io/site/Awards_honors/
+- Research Resources: https://shao1116.github.io/site/Research_resources/
+
+## Research Focus
+
+- Lung and mucosal immunology
+- Respiratory viral infection and pulmonary inflammation
+- Asthma and tissue immune regulation
+- Innate lymphoid cells, including ILC2 and ILC3 biology
+- Macrophage and monocyte heterogeneity
+- High-dimensional cytometry and immune profiling
+- Single-cell transcriptomics and bioinformatics
+
+## External Profiles
+
+- Google Scholar: https://scholar.google.com/citations?user=RYCi31gAAAAJ
+- LinkedIn: https://www.linkedin.com/in/jheng-syuan-shao-508b05160/
+- ILC Knowledge Hub: https://shao1116.github.io/ILC-Wiki/
+
+## Contact
+
+- Email: shao1116@gmail.com
