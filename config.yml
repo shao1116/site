@@ -64,6 +64,7 @@ params:
     disableThemeToggle: true
     ShowShareButtons: false
     ShowReadingTime: false
+    hideMeta: true
     disableSpecial1stPost: true
     disableAnchoredHeadings: true
     ShowPostNavLinks: false
@@ -133,8 +134,8 @@ params:
         #  url: https://bsky.app/profile/pmichaillat.bsky.social
 
     assets:
-        theme_color: "#f7faf8"
-        msapplication_TileColor: "#f7faf8"
+        theme_color: "#faf6ee"
+        msapplication_TileColor: "#faf6ee"
         disableScrollBarStyle: true
     cover:
         hiddenInList: false
