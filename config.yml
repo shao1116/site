@@ -134,8 +134,8 @@ params:
         #  url: https://bsky.app/profile/pmichaillat.bsky.social
 
     assets:
-        theme_color: "#faf6ee"
-        msapplication_TileColor: "#faf6ee"
+        theme_color: "#fffdf8"
+        msapplication_TileColor: "#fffdf8"
         disableScrollBarStyle: true
     cover:
         hiddenInList: false

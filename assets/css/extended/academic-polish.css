@@ -8,14 +8,14 @@
     --main-width: 820px;
     --nav-width: 1120px;
     --radius: 8px;
-    --theme: #faf6ee;
+    --theme: #fffdf8;
     --entry: #ffffff;
     --primary: #1f2428;
     --secondary: #635d53;
     --tertiary: #e4d9c9;
     --content: #2b2f31;
-    --code-bg: #f4eadc;
-    --border: #e4d8c6;
+    --code-bg: #faf4ea;
+    --border: #eadfce;
     --darkcolor: #596c91;
     --lightcolor: #e9dfcf;
     --lineheight: 1.58;
@@ -25,9 +25,9 @@
 
 body {
     background:
-        linear-gradient(180deg, #f5ecdf 0, #faf6ee 280px),
-        linear-gradient(90deg, rgba(89, 108, 145, 0.035) 1px, transparent 1px),
-        #faf6ee;
+        linear-gradient(180deg, #fbf4ea 0, #fffdf8 280px),
+        linear-gradient(90deg, rgba(89, 108, 145, 0.025) 1px, transparent 1px),
+        #fffdf8;
     background-size: auto, 56px 56px, auto;
     color: var(--content);
     font-feature-settings: "kern" 1;
@@ -35,9 +35,9 @@ body {
 
 body.list {
     background:
-        linear-gradient(180deg, #f5ecdf 0, #faf6ee 280px),
-        linear-gradient(90deg, rgba(89, 108, 145, 0.035) 1px, transparent 1px),
-        #faf6ee;
+        linear-gradient(180deg, #fbf4ea 0, #fffdf8 280px),
+        linear-gradient(90deg, rgba(89, 108, 145, 0.025) 1px, transparent 1px),
+        #fffdf8;
     background-size: auto, 56px 56px, auto;
 }
 
@@ -45,7 +45,7 @@ body.list {
     max-width: var(--nav-width);
     border: 1px solid rgba(72, 63, 50, 0.10);
     border-radius: 0 0 var(--radius) var(--radius);
-    background: rgba(250, 246, 238, 0.96);
+    background: rgba(255, 253, 248, 0.96);
 }
 
 .logo a,
