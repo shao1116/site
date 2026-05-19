@@ -1,7 +1,7 @@
 ---
 title: "Education & Experiences"
 url: "/Education_Experiences/"
-description: "Education, research training, postdoctoral appointment, visiting scholar experiences, and professional background of Jheng-Syuan Shao, Ph.D."
+description: "Education, research training, postdoctoral appointment, academic visits, and professional background of Jheng-Syuan Shao, Ph.D."
 keywords:
   - Jheng-Syuan Shao education
   - Academia Sinica
@@ -161,26 +161,26 @@ draft: false
 ## Work experiences
 
 Postdoctoral fellow, Academia Sinica, Taiwan
-<br>August 2025 – NOW
+<br>August 2025 &ndash; NOW
 + Institute of Biomedical Science
 + Supervisor: Ya-Jen Chang, PhD, Research Fellow.
 
 
 Research Assistant, Kaohsiung Medical University, Kaohsiung, Taiwan
-<br>Jan. 2018 – May 2020
+<br>Jan. 2018 &ndash; May 2020
 + Division of Plastic Surgery, Department of Surgery
 + Supervisor: Yur-Ren Kuo, MD, PhD, FACS, Professor.
 
 
 Second Lieutenant Company Chief Counselor, Ministry of National Defense, Taiwan 
-<br>July. 2015–July 2016
+<br>July 2015 &ndash; July 2016
 + Serve in compulsory military service in Taiwan
 
 ---
 
-## Visiting scholar
+## Academic Visits
 
-Consejo Superior de Investigaciones Científicas (CSIC, Spanish National Research Council),
+Consejo Superior de Investigaciones Cient&iacute;ficas (CSIC, Spanish National Research Council),
 University of Sevilla, Spain
 <br>2 weeks, 2024
 + Academic exchange and learning the drug development in Spain.

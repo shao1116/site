@@ -25,10 +25,10 @@ menu:
         #- name: Papers
         #  url: papers/
         #  weight: 2
-        - name: Awards & honors
+        - name: Awards & Honors
           url: Awards_honors/
           weight: 3
-        - name: Research resources
+        - name: Research Resources
           url: Research_resources/
           weight: 4
         #- name: Data
@@ -88,18 +88,18 @@ params:
           imageWidth: 160
           imageHeight: 160
           buttons:
+            - name: Publications
+              url: Publications/
+            - name: Research Resources
+              url: Research_resources/
             - name: Education & Experiences
               url: Education_Experiences/
+            - name: Awards & Honors
+              url: Awards_honors/
             #- name: Data
             #  url: data/
             #- name: Books
             #  url: books/
-            - name: Publications
-              url: Publications/
-            - name: Awards & honors
-              url: Awards_honors/
-            - name: Research Resources
-              url: Research_resources/
             #- name: Tags
             #  url: tags/
             #- name: Archive
@@ -120,7 +120,7 @@ params:
         #   url: officehours/
         - name: Google Scholar
           url: https://scholar.google.com/citations?user=RYCi31gAAAAJ
-        - name: Linkedin
+        - name: LinkedIn
           url: https://www.linkedin.com/in/jheng-syuan-shao-508b05160/
         #- name: GitHub
         #  url: https://github.com/pmichaillat
