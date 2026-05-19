@@ -16,11 +16,11 @@ taxonomies:
 
 menu:
     main:
-        - name: Education & Experiences
-          url: Education_Experiences/
-          weight: 1 
         - name: Publications
           url: Publications/
+          weight: 1
+        - name: Education & Experiences
+          url: Education_Experiences/
           weight: 2
         #- name: Papers
         #  url: papers/
@@ -90,12 +90,12 @@ params:
           buttons:
             - name: Publications
               url: Publications/
-            - name: Research Resources
-              url: Research_resources/
             - name: Education & Experiences
               url: Education_Experiences/
             - name: Awards & Honors
               url: Awards_honors/
+            - name: Research Resources
+              url: Research_resources/
             #- name: Data
             #  url: data/
             #- name: Books
