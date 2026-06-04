@@ -37,6 +37,7 @@ goldmark.renderer.unsafe: True
           <h3 class="pub-title"><span class="pub-index">5.</span> Lung dysbiosis disrupts an FFAR2-mediated innate immune circuit against Klebsiella pneumoniae.</h3>
           <p class="pub-authors">Ting-Chieh Huang, <strong>Jheng-Syuan Shao</strong>, Alan Chuan-Ying Lai, Ko-Chien Wu, Da-Fu Lin, Ya-Jen Chang*</p>
           <p class="pub-meta"><em>Theranostics</em> (2026) &middot; 2024 IF 13.3 &middot; Ranking 7/195 (Medicine, Research & Experimental)</p>
+          <p class="pub-links"><a class="pubmed-link" href="https://pubmed.ncbi.nlm.nih.gov/41993626/" target="_blank" rel="noopener noreferrer" aria-label="Open PubMed record for Lung dysbiosis disrupts an FFAR2-mediated innate immune circuit against Klebsiella pneumoniae">Open PubMed</a></p>
         </article>
       </div>
     </div>
@@ -49,6 +50,7 @@ goldmark.renderer.unsafe: True
           <h3 class="pub-title"><span class="pub-index">4.</span> Pulmonary fibroblast-derived stem cell factor promotes neutrophilic asthma by augmenting IL-17A production from ILC3s.</h3>
           <p class="pub-authors"><strong>Jheng-Syuan Shao</strong>, Alan Chuan-Ying Lai, Wei-Chang Huang, Ko-Chien Wu, Po-Yu Chi, Yao-Ming Chang, Ya-Jen Chang*</p>
           <p class="pub-meta"><em>The Journal of Clinical Investigation</em> (2025) &middot; 2024 IF 13.6 &middot; Ranking 5/195 (Medicine, Research & Experimental)</p>
+          <p class="pub-links"><a class="pubmed-link" href="https://pubmed.ncbi.nlm.nih.gov/40674143/" target="_blank" rel="noopener noreferrer" aria-label="Open PubMed record for Pulmonary fibroblast-derived stem cell factor promotes neutrophilic asthma by augmenting IL-17A production from ILC3s">Open PubMed</a></p>
         </article>
 
         <article class="pub-card role-collab">
@@ -56,6 +58,7 @@ goldmark.renderer.unsafe: True
           <h3 class="pub-title"><span class="pub-index">3.</span> Decoding innate lymphoid cells and innate-like lymphocytes in asthma: pathways to mechanisms and therapies.</h3>
           <p class="pub-authors">Christina Li-Ping Thio, <strong>Jheng-Syuan Shao</strong>, Chia-Hui Luo, Ya-Jen Chang*</p>
           <p class="pub-meta"><em>Journal of Biomedical Science</em> (2025) &middot; 2024 IF 12.1 &middot; Ranking 9/195 (Medicine, Research & Experimental)</p>
+          <p class="pub-links"><a class="pubmed-link" href="https://pubmed.ncbi.nlm.nih.gov/40355861/" target="_blank" rel="noopener noreferrer" aria-label="Open PubMed record for Decoding innate lymphoid cells and innate-like lymphocytes in asthma">Open PubMed</a></p>
         </article>
       </div>
     </div>
@@ -68,6 +71,7 @@ goldmark.renderer.unsafe: True
           <h3 class="pub-title"><span class="pub-index">2.</span> Adipose-derived stromal cells modulating composite allotransplant survival is correlated with B cell regulation in a rodent hind-limb allotransplantation model.</h3>
           <p class="pub-authors">Chien-Chang Chen, Rong-Fu Chen, <strong>Jheng-Syuan Shao</strong>, Yun-Ting Li, Yu-Chi Wang, Gerald Brandacher, Jiin-Haur Chuang, Yur-Ren Kuo*</p>
           <p class="pub-meta"><em>Stem Cell Research & Therapy</em> (2020) &middot; 2020 IF 6.8 &middot; Ranking 24/140 (Medicine, Research & Experimental)</p>
+          <p class="pub-links"><a class="pubmed-link" href="https://pubmed.ncbi.nlm.nih.gov/33176866/" target="_blank" rel="noopener noreferrer" aria-label="Open PubMed record for Adipose-derived stromal cells modulating composite allotransplant survival">Open PubMed</a></p>
         </article>
       </div>
     </div>
@@ -80,6 +84,7 @@ goldmark.renderer.unsafe: True
           <h3 class="pub-title"><span class="pub-index">1.</span> Phosphoproteomics identified an NS5A phosphorylation site involved in Hepatitis C Virus replication.</h3>
           <p class="pub-authors">Weng Man Chong, Shih-Chin Hsu, Wei-Ting Kao, Chieh-Wen Lo, Kuan-Ying Lee, <strong>Jheng-Syuan Shao</strong>, Yi-Hung Chen, Justin Chang, Steve S.-L. Chen, Ming-Jiun Yu*</p>
           <p class="pub-meta"><em>Journal of Biological Chemistry</em> (2016) &middot; 2016 IF 4.1 &middot; Ranking 74/290 (Biochemistry & Molecular Biology)</p>
+          <p class="pub-links"><a class="pubmed-link" href="https://pubmed.ncbi.nlm.nih.gov/26702051/" target="_blank" rel="noopener noreferrer" aria-label="Open PubMed record for Phosphoproteomics identified an NS5A phosphorylation site involved in Hepatitis C Virus replication">Open PubMed</a></p>
         </article>
       </div>
     </div>
@@ -290,6 +295,37 @@ goldmark.renderer.unsafe: True
   .pub-meta {
     margin-top: 0.26rem;
     color: var(--muted);
+  }
+
+  .pub-links {
+    margin-top: 0.62rem;
+    margin-bottom: 0;
+  }
+
+  .pubmed-link {
+    display: inline-flex;
+    align-items: center;
+    width: fit-content;
+    border: 1px solid rgba(47, 64, 72, 0.18);
+    border-radius: 8px;
+    box-shadow: none !important;
+    padding: 0.3rem 0.62rem;
+    color: #243746;
+    background: rgba(255, 255, 255, 0.72);
+    font-size: 0.78rem;
+    font-weight: 750;
+    letter-spacing: 0.01em;
+    line-height: 1.2;
+    text-decoration: none;
+    transition: background 0.16s ease, border-color 0.16s ease, color 0.16s ease, transform 0.16s ease;
+  }
+
+  .pubmed-link:hover,
+  .pubmed-link:focus-visible {
+    border-color: rgba(11, 87, 208, 0.32);
+    background: #f0f6ff;
+    color: #0b57d0;
+    transform: translateY(-1px);
   }
 
   @media (hover: hover) and (pointer: fine) {
