@@ -37,7 +37,7 @@ goldmark.renderer.unsafe: True
           <h3 class="pub-title"><span class="pub-index">6.</span> A pulmonary innate lymphoid cell-driven serotonergic neuroimmune axis orchestrates airway hyperreactivity and cough hypersensitivity.</h3>
           <p class="pub-authors">Chia-Hui Luo, <strong>Jheng-Syuan Shao</strong>, Alan Chuan-Ying Lai, Wei-Chang Huang, Ko-Chien Wu, Wei-Yu Chen, Chih-Cheng Chen, Nicholas W. Lukacs, Ya-Jen Chang*</p>
           <p class="pub-meta"><em>Immunity</em> (2026) &middot; 2025 IF 30.6 &middot; Ranking 3/183 (Immunology)</p>
-          <p class="pub-links"><a class="pubmed-link" href="https://www.sciencedirect.com/science/article/pii/S1074761326003419" target="_blank" rel="noopener noreferrer" aria-label="Open article for A pulmonary innate lymphoid cell-driven serotonergic neuroimmune axis orchestrates airway hyperreactivity and cough hypersensitivity">Open article</a> <span class="pubmed-link" aria-disabled="true">PubMed pending</span></p>
+          <p class="pub-links"><a class="pubmed-link" href="https://www.sciencedirect.com/science/article/pii/S1074761326003419" target="_blank" rel="noopener noreferrer" aria-label="Open article for A pulmonary innate lymphoid cell-driven serotonergic neuroimmune axis orchestrates airway hyperreactivity and cough hypersensitivity">Open article</a> <a class="pubmed-link" href="https://pubmed.ncbi.nlm.nih.gov/42705228/" target="_blank" rel="noopener noreferrer" aria-label="Open PubMed record for A pulmonary innate lymphoid cell-driven serotonergic neuroimmune axis orchestrates airway hyperreactivity and cough hypersensitivity">Open PubMed</a></p>
         </article>
 
         <article class="pub-card role-collab">
