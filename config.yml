@@ -83,7 +83,7 @@ params:
           enabled: true
           title: Jheng-Syuan Shao, Ph.D.
           subtitle: "Postdoctoral fellow at the Institute of Biomedical Sciences, Academia Sinica | Mucosal immunology
-          <br><br>My research integrates in vivo mouse models, high-dimensional immune profiling, and single-cell transcriptomic analysis to understand how innate immune cell networks coordinate host defense, inflammation, and lung tissue homeostasis."
+          <br><br>My research focuses on how pulmonary innate immune networks coordinate host defense, inflammation, and tissue homeostasis across diverse pulmonary diseases. I combine mechanistic models with single-cell analysis to define the cellular circuits underlying these processes."
           imageUrl: "PHOTO.jpg"
           imageWidth: 160
           imageHeight: 160
