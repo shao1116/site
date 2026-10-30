@@ -1,0 +1,11 @@
+<section class="summary-counts" aria-label="{{ .Get "label" }}">
+  {{ range slice "first" "second" }}
+    {{ $value := $.Get (printf "%sCount" .) }}
+    <div class="summary-count-item">
+      <span class="summary-count-number" data-count-to="{{ $value }}" aria-hidden="true">{{ $value }}</span>
+      <span class="summary-count-accessible">{{ $value }}</span>
+      <span class="summary-count-label">{{ $.Get (printf "%sLabel" .) }}</span>
+    </div>
+  {{ end }}
+</section>
+<script src="{{ "js/number-counters.js" | relURL }}" defer></script>

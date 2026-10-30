@@ -17,6 +17,8 @@ goldmark.renderer.unsafe: True
 
 ---
 
+{{< number-counters label="Publication summary" firstCount="6" firstLabel="Peer-Reviewed Articles" secondCount="3" secondLabel="Conference Presentations" >}}
+
 ---
 ## Peer-Reviewed Articles
 
