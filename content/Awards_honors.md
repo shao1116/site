@@ -13,7 +13,7 @@ draft: false
 
 ---
 
-{{< number-counters label="Award category summary" firstCount="4" firstLabel="Fellowships & Institutional Honors" secondCount="7" secondLabel="Conference & Presentation Awards" >}}
+{{< number-counters label="Award category summary" firstCount="4" firstLabel="Fellowships & Institutional Honors" secondCount="8" secondLabel="Conference & Presentation Awards" >}}
 
 --- 
 
@@ -48,6 +48,14 @@ Taiwan International Graduate Program Fellowship
 ---
 
 ## Conference & Presentation Awards
+
+Excellence Award (優等獎), Oral Presentation Competition
+2026
++ Chinese Society of Immunology (CSI), 2026 Annual Meeting, October 31-November 1, 2026.
++ Selected through abstract review for the oral presentation competition and received the Excellence Award.
++ [Competition details](https://www.immunology.org.tw/meeting/2026/paper/index.asp).
+
+---
 
 ICMI Young Investigator Travel Award
 2026
