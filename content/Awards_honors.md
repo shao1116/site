@@ -53,7 +53,6 @@ Excellence Award (優等獎), Oral Presentation Competition
 2026
 + Chinese Society of Immunology (CSI), 2026 Annual Meeting, October 31-November 1, 2026.
 + Selected through abstract review for the oral presentation competition and received the Excellence Award.
-+ [Competition details](https://www.immunology.org.tw/meeting/2026/paper/index.asp).
 
 ---
 
