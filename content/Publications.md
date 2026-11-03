@@ -400,7 +400,7 @@ goldmark.renderer.unsafe: True
 
 ## Conference Abstracts
 
-4‧ <strong>Jheng-Syuan Shao</strong>, Ko-Chien Wu, Ya-Jen Chang*. "An IFN-γ-STAT1-Licensed Macrophage-ILC2 Circuit Sustains Reparative Immunity During Viral Pneumonia." Oral presentation, 2026 Annual Meeting of the Chinese Society of Immunology (CSI), October 31-November 1, 2026.
+4‧ <strong>Jheng-Syuan Shao</strong>, Ko-Chien Wu, Ya-Jen Chang*. "An IFN-γ-STAT1-Licensed Macrophage-ILC2 Circuit Sustains Reparative Immunity During Viral Pneumonia." Oral presentation, 2026 Annual Meeting of the Chinese Society of Immunology (CSI), Taipei, Taiwan, October 31-November 1, 2026.
 <br><strong>Award</strong>: Excellence Award (優等獎), Oral Presentation Competition.
 
 3‧ <strong>Jheng-Syuan Shao</strong>, Ko-Chien Wu, Ya-Jen Chang*. "SLAMF7+ MDM-ILC2 crosstalk orchestrates lung homeostasis during viral pneumonia." Poster presentation, The International Congress of Mucosal Immunology (ICMI) 2026, Montr&eacute;al, Canada, July 13-17, 2026.
