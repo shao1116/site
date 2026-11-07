@@ -22,28 +22,28 @@ draft: false
 Academia Sinica Postdoctoral Scholar
 2026
 + Academia Sinica.
-+ Institutional fellowship supporting outstanding postdoctoral researchers at Academia Sinica. Support: $67,500 USD over 2 years.
++ Institutional fellowship supporting outstanding postdoctoral researchers at Academia Sinica.
 
 ---
 
 Outstanding Student Research Achievement Award
 2026
 + National Yang Ming Chiao Tung University.
-+ Awarded for outstanding research achievement during doctoral training. Honorarium: $1,300 USD.
++ Awarded for outstanding research achievement during doctoral training.
 
 ---
 
 TIGP Research Performance Fellowship
 2024
 + Taiwan International Graduate Program (TIGP), Academia Sinica.
-+ Fellowship awarded to PhD candidates with strong research performance in TIGP. Support: $2,400 USD.
++ Fellowship awarded to PhD candidates with strong research performance in TIGP.
 
 ---
 
 Taiwan International Graduate Program Fellowship
 2020-2025
 + Taiwan International Graduate Program (TIGP), Academia Sinica.
-+ Graduate fellowship supporting doctoral training in the TIGP Molecular Medicine program. Support: $13,600 USD/year.
++ Graduate fellowship supporting doctoral training in the TIGP Molecular Medicine program.
 
 ---
 
