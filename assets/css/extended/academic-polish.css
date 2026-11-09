@@ -133,6 +133,12 @@ body.list {
     border-radius: var(--radius);
 }
 
+.post-content .conference-photo-portrait img {
+    width: auto;
+    height: auto;
+    max-height: 400px;
+}
+
 .pub-card,
 .edu-card {
     border-radius: var(--radius) !important;

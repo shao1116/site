@@ -61,7 +61,7 @@ ICMI Young Investigator Travel Award
 2026
 + Society for Mucosal Immunology, International Congress of Mucosal Immunology (ICMI) 2026.
 + Recognizes promising early-career investigators selected to present research at ICMI. Support: $1,000 USD.
-{{< figure src="ICMI2026.jpg" width="400px" height="auto" alt="Poster presentation at the International Congress of Mucosal Immunology (ICMI) 2026 in Montreal, Canada" >}}
+{{< figure src="ICMI2026.jpg" class="conference-photo-portrait" height="400" alt="Poster presentation at the International Congress of Mucosal Immunology (ICMI) 2026 in Montreal, Canada" >}}
 
 ---
 
