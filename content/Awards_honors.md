@@ -53,6 +53,7 @@ Excellence Award (優等獎), Oral Presentation Competition
 2026
 + Chinese Society of Immunology (CSI), 2026 Annual Meeting, October 31-November 1, 2026.
 + Selected through abstract review for the oral presentation competition and received the Excellence Award.
+{{< figure src="CSI2026.jpg" width="400px" height="auto" alt="Oral presentation at the 2026 Annual Meeting of the Chinese Society of Immunology in Taipei, Taiwan" >}}
 
 ---
 
@@ -60,6 +61,7 @@ ICMI Young Investigator Travel Award
 2026
 + Society for Mucosal Immunology, International Congress of Mucosal Immunology (ICMI) 2026.
 + Recognizes promising early-career investigators selected to present research at ICMI. Support: $1,000 USD.
+{{< figure src="ICMI2026.jpg" width="400px" height="auto" alt="Poster presentation at the International Congress of Mucosal Immunology (ICMI) 2026 in Montreal, Canada" >}}
 
 ---
 
