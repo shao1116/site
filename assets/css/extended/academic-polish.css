@@ -48,13 +48,8 @@ body.list {
     background: rgba(255, 254, 250, 0.96);
 }
 
-.logo a,
-#menu a {
+.logo a {
     color: var(--primary);
-}
-
-#menu .active {
-    border-bottom-color: var(--darkcolor);
 }
 
 .main {
@@ -62,7 +57,7 @@ body.list {
 }
 
 .main .profile {
-    min-height: calc(100vh - var(--footer-height) - (var(--gap) * 4));
+    min-height: calc(100vh - var(--header-height) - var(--footer-height) - (var(--gap) * 4));
     padding-inline: 0;
 }
 

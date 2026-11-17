@@ -40,7 +40,7 @@
 {{- end }}
 
 <header class="header">
-    <nav class="nav">
+    <nav class="nav" aria-label="Main navigation">
         <div class="logo">
             {{- $label_text := (site.Params.label.text | default site.Title) }}
             {{- if site.Title }}
@@ -122,15 +122,23 @@
             </div>
         </div>
         {{- $currentPage := . }}
-        <ul id="menu">
+        <details class="nav-dropdown" id="site-navigation">
+            <summary>
+                Menu
+                <svg aria-hidden="true" width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5">
+                    <path d="m4 6 4 4 4-4" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+            </summary>
+            <ul class="nav-dropdown-links">
             {{- range site.Menus.main }}
             {{- $menu_item_url := (cond (strings.HasSuffix .URL "/") .URL (printf "%s/" .URL) ) | absLangURL }}
             {{- $page_url:= $currentPage.Permalink | absLangURL }}
             {{- $is_search := eq (site.GetPage .KeyName).Layout `search` }}
             <li>
                 <a href="{{ .URL | absLangURL }}" title="{{ .Title | default .Name }} {{- cond $is_search (" (Alt + /)" | safeHTMLAttr) ("" | safeHTMLAttr ) }}"
-                {{- cond $is_search (" accesskey=/" | safeHTMLAttr) ("" | safeHTMLAttr ) }}>
-                    <span {{- if eq $menu_item_url $page_url }} class="active" {{- end }}>
+                {{- cond $is_search (" accesskey=/" | safeHTMLAttr) ("" | safeHTMLAttr ) }}
+                {{- if eq $menu_item_url $page_url }} aria-current="page"{{- end }}>
+                    <span>
                         {{- .Pre }}
                         {{- .Name -}}
                         {{ .Post -}}
@@ -146,6 +154,7 @@
                 </a>
             </li>
             {{- end }}
-        </ul>
+            </ul>
+        </details>
     </nav>
 </header>

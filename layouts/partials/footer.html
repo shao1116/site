@@ -30,12 +30,19 @@
 {{- end }}
 
 <script>
-    let menu = document.getElementById('menu')
-    if (menu) {
-        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
-        menu.onscroll = function () {
-            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
-        }
+    const siteNavigation = document.getElementById('site-navigation');
+    if (siteNavigation) {
+        document.addEventListener('click', event => {
+            if (siteNavigation.open && !siteNavigation.contains(event.target)) {
+                siteNavigation.open = false;
+            }
+        });
+        siteNavigation.addEventListener('keydown', event => {
+            if (event.key === 'Escape' && siteNavigation.open) {
+                siteNavigation.open = false;
+                siteNavigation.querySelector('summary').focus();
+            }
+        });
     }
 
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {

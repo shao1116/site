@@ -88,25 +88,6 @@ params:
           imageUrl: "PHOTO.jpg"
           imageWidth: 160
           imageHeight: 160
-          buttons:
-            - name: Publications
-              url: Publications/
-            - name: Education & Experiences
-              url: Education_Experiences/
-            - name: Awards & Honors
-              url: Awards_honors/
-            - name: Research Resources
-              url: Research_resources/
-            #- name: Data
-            #  url: data/
-            #- name: Books
-            #  url: books/
-            #- name: Tags
-            #  url: tags/
-            #- name: Archive
-            #  url: archive/
-            #- name: Blog
-            #  url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
 
     socialIcons:
         #- name: CV
